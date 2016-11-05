@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>I Do!</title>
+      <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+<!--       <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.js"></script>
+    </head>
+  <body>    
+    <div id="container">
+      <header id="home" class="parallax-window" data-parallax="scroll" data-image-src="http://sazan.me/wp-content/uploads/2015/07/26.jpg">
+        <h1>Alex and Haruka!</h1>
+        <nav id="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#B">B</a></li>
+            <li><a href="#our-story">Our Story</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+          </ul>
+        </nav>  
+      </header>
+      <section id="B" class="section">
+        <h2>B</h2>
+      </section>
+      <section id="our-story" class="section">
+        <h2>Our Story</h2>
+      </section>
+      <aside id="rsvp" class="section">
+        <h2>RSVP</h2>
+      </aside>
+      <footer></footer>
+    </div>
+  </body>
+
+  <script>
+    $(window).scroll(function () {
+      if ( $(window).scrollTop() >= $("header").height() - 105) {
+        $('nav').addClass("scrolled");
+      } else {
+        $('nav').removeClass("scrolled");
+      }
+      // if ($(window).scrollTop() > 600) {
+      //     $('nav').css('top', $(window).scrollTop());
+      //     $('nav').css("background", "white");
+      // }
+    });
+  </script>
+</html>
