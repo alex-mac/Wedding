@@ -12,7 +12,7 @@
     <div id="container">
       <header id="home" class="parallax-window" data-parallax="scroll" data-image-src="http://sazan.me/wp-content/uploads/2015/07/26.jpg">
         <h1>Alex and Haruka!</h1>
-        <nav id="navbar">
+        <nav id="navbar" class="bottom">
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#B">B</a></li>
@@ -36,10 +36,12 @@
 
   <script>
     $(window).scroll(function () {
-      if ( $(window).scrollTop() >= $("header").height() - 105) {
+      if ( $(window).scrollTop() >= $("header").height() - 70) {
         $('nav').addClass("scrolled");
+        $('nav').removeClass("bottom");
       } else {
         $('nav').removeClass("scrolled");
+        $('nav').addClass("bottom");
       }
       // if ($(window).scrollTop() > 600) {
       //     $('nav').css('top', $(window).scrollTop());
