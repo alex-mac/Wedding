@@ -17,7 +17,6 @@ section {
 .content {
   max-width: 980px;
   border: 5px solid coral;
-  background: blue;
   margin: 0 auto;
   height: 100%;
   position: relative;
@@ -58,7 +57,7 @@ nav.scrolled { /* This will only take place when the navbar reaches the set poin
   z-index: 99;
   /*top:10px;*/
   left:0;
-  background: DeepSkyBlue;
+  background: white;
   transition: 0.3s;
   box-shadow: 0 0 1px 0 gray;
 }
@@ -76,7 +75,9 @@ header nav ul li {
 
 #message {
   position: absolute;
-  right: 50px;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 15%;
   width: 350px;
   height: 300px;
   border: 1px solid black;
