@@ -10,7 +10,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  height: 75vh;
   width: 100%;
 }
 
@@ -83,12 +83,29 @@ header nav ul li {
   border: 1px solid black;
 }
 
-#rsvp {
+/*#rsvp {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   position: absolute;
+  width: 100%;
   border: 5px solid coral;
   margin: 0 auto;
-  width: 600px;
-  height: 600px;
+  max-width: 800px;
+  height: 550px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.left {
+  border: 1px solid black;
+  width: 45%;
+  height: 100%;
+}
+
+.right {
+  border: 1px solid black;
+  width: 45%;
+  height: 100%;
+}*/
