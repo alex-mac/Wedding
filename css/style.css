@@ -48,6 +48,10 @@ nav {
   transition: 0.3s;
 }
 
+nav a {
+  color: white;
+}
+
 .bottom {
   bottom: 0;
 }
@@ -60,6 +64,10 @@ nav.scrolled { /* This will only take place when the navbar reaches the set poin
   background: white;
   transition: 0.3s;
   box-shadow: 0 0 1px 0 gray;
+}
+
+nav.scrolled a{
+  color: black;
 }
 
 ul {
