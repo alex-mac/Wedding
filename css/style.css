@@ -82,3 +82,13 @@ header nav ul li {
   height: 300px;
   border: 1px solid black;
 }
+
+#rsvp {
+  position: absolute;
+  border: 5px solid coral;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
