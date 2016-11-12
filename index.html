@@ -90,5 +90,10 @@
       //     $('nav').css("background", "white");
       // }
     });
+
+    window.addEventListener("hashchange", function () {
+      console.log("hashchange!");
+      window.scrollTo(window.scrollX, window.scrollY - 68);
+    });
   </script>
 </html>

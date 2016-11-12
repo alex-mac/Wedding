@@ -12,6 +12,7 @@ body {
 section {
   height: 75vh;
   width: 100%;
+  position: relative;
 }
 
 .content {
@@ -19,7 +20,7 @@ section {
   border: 5px solid coral;
   margin: 0 auto;
   height: 100%;
-  position: relative;
+  /*position: relative;*/
 }
 
 /* header */
@@ -92,7 +93,10 @@ header nav ul li {
 }
 
 #about-us:target {
+  /*margin-top: -68px;*/
+  /*padding-top: 68px;*/
   border: 1px solid red;
+  /*margin: 68px;*/
 }
 
 /*#rsvp {
