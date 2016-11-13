@@ -14,7 +14,7 @@ section {
   /*min-height: 400px;*/
   width: 100%;
   border: 1px solid black;
-  /*padding: 40px;*/
+  padding: 40px 0;
 }
 
 .content {
@@ -25,6 +25,10 @@ section {
 }
 
 h2 {
+  text-align: center;
+}
+
+h3 {
   text-align: center;
 }
 
