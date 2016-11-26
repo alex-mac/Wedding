@@ -14,14 +14,14 @@ html * {
   box-sizing: border-box;
 }
 
-body {
+/*body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
   color: #7f8c97;
   background-color: #e9f0f5;
-}
+}*/
 
-a {
+/*a {
   color: #acb7c0;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
@@ -34,7 +34,7 @@ img {
 h1, h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-}
+}*/
 
 /* -------------------------------- 
 
@@ -59,7 +59,7 @@ Modules - reusable parts of our design
 Main components 
 
 -------------------------------- */
-header {
+/*header {
   height: 200px;
   line-height: 200px;
   text-align: center;
@@ -79,7 +79,7 @@ header h1 {
     font-size: 24px;
     font-size: 1.5rem;
   }
-}
+}*/
 
 #cd-timeline {
   position: relative;
