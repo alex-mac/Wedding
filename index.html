@@ -14,8 +14,8 @@
       type="image/png" 
       href="favicon.png">
 
-    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/main.js"></script>
     <script src="js/modernizr.js"></script>
@@ -23,17 +23,19 @@
   <body>    
     <div id="container">
       <header id="home">
-        <h1>Alex and Haruka!</h1>
-        <nav id="navbar" class="bottom">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#our-story">Our Story</a></li>
-            <li><a href="#when-where">When and Where</a></li>
-            <li><a href="#guestbook">Guestbook</a></li>
-            <!-- <li><a href="#rsvp">RSVP</a></li> -->
-          </ul>
-        </nav>  
+        <div id="img-shade">
+          <h1>Alex and Haruka!</h1>
+          <nav id="navbar" class="bottom">
+            <ul>
+              <li><a data-scroll href="#home">Home</a></li>
+              <li><a data-scroll href="#about-us">About Us</a></li>
+              <li><a data-scroll href="#our-story">Our Story</a></li>
+              <li><a data-scroll href="#when-where">When and Where</a></li>
+              <li><a data-scroll href="#guestbook">Guestbook</a></li>
+              <!-- <li><a href="#rsvp">RSVP</a></li> -->
+            </ul>
+          </nav>  
+        </div>
       </header>
       <section>
         <div id="about-us" class="content">
@@ -164,6 +166,7 @@
   </body>
 
   <script>
+    smoothScroll.init();
     $(window).scroll(function () {
       if ( $(window).scrollTop() >= $("header").height() - 70) {
         $('nav').addClass("scrolled");
