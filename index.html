@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/timeline.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburger.css">
 
     <!-- favicon -->
     <link rel="icon" 
@@ -19,13 +20,20 @@
     <script src="js/parallax.js"></script>
     <script src="js/main.js"></script>
     <script src="js/modernizr.js"></script>
+    <script type="js/hamburger.js"></script>
   </head>
   <body>    
     <div id="container">
       <header id="home">
         <div id="img-shade">
-          <h1>Alex and Haruka!</h1>
-          <nav id="navbar" class="bottom">
+          <h1>Alex & Haruka's Wedding</h1>
+          <div class="hamburger-icon" id="icon"> <!-- hamburger icon -->
+            <div class="icon-1" id="a"></div>
+            <div class="icon-2" id="b"></div>
+            <div class="icon-3" id="c"></div>
+            <div class="clear"></div>
+          </div>
+          <nav id="navbar" class="bottom"> <!-- desktop menu-->
             <ul>
               <li><a data-scroll href="#home">Home</a></li>
               <li><a data-scroll href="#about-us">About Us</a></li>
@@ -37,8 +45,8 @@
           </nav>  
         </div>
       </header>
-      <section>
-        <div id="about-us" class="content">
+      <section id="about-us">
+        <div class="content">
           <h2>About Us</h2>
           <div class="half">
               <h3>From Alex</h3>
@@ -59,8 +67,8 @@
           </div>
         </div>
       </section>
-      <section>
-        <div id="our-story" class="content">
+      <section id="our-story">
+        <div class="content">
           <h2>Our Story</h2>
           <section id="cd-timeline" class="cd-container">
     <div class="cd-timeline-block">
@@ -137,8 +145,8 @@
   </section> <!-- cd-timeline -->
         </div>
       </section>
-      <section>
-        <div id="when-where" class="content">
+      <section id="when-where">
+        <div class="content">
           <h2>When and Where</h2>
         </div>
       </section>
@@ -166,7 +174,7 @@
   </body>
 
   <script>
-    smoothScroll.init();
+    
     $(window).scroll(function () {
       if ( $(window).scrollTop() >= $("header").height() - 70) {
         $('nav').addClass("scrolled");
@@ -175,10 +183,6 @@
         $('nav').removeClass("scrolled");
         $('nav').addClass("bottom");
       }
-      // if ($(window).scrollTop() > 600) {
-      //     $('nav').css('top', $(window).scrollTop());
-      //     $('nav').css("background", "white");
-      // }
     });
 
     window.addEventListener("hashchange", function () {
