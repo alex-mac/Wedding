@@ -1,6 +1,7 @@
 var express = require('express'),
     bodyParser = require('body-parser'),
     app = express(),
+    request = require('request'),
     db = require('./models');
 ;
 
