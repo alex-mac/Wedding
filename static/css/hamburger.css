@@ -74,7 +74,7 @@
   }
 }
 
-/*nav {
+nav #navres {
   background: #0288D1;
   position: absolute;
   top: 0;
@@ -86,13 +86,13 @@
   transition: all 600ms cubic-bezier(0.62, 0.04, 0.3, 1.56);
   transition-delay: 100ms;
 }
-nav ul {
+nav ul #navres {
   margin: 0;
   position: absolute;
   top: 30%;
   left: 40%;
 }
-nav ul li {
+nav ul li #navres {
   list-style: none;
   font-size: 24px;
   color: #fff;
@@ -101,10 +101,10 @@ nav ul li {
   letter-spacing: 1.7px;
 }
 
-nav.show {
+nav #navres.show {
   width: 50%;
   opacity: 1;
-}*/
+}
 
 .dark-blue {
   position: absolute;
