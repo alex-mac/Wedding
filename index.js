@@ -29,6 +29,6 @@ app.use(function(req, res, next) {
 });
 
 var port = 3000
-app.listen(port, function() {
+app.listen(process.env.PORT || post, function() {
   console.log("You're listening to the smooth sounds of port " + port);
 });
