@@ -30,6 +30,4 @@ app.use(function(req, res, next) {
 });
 
 var port = 3000
-app.listen(process.env.PORT || port, function() {
-  console.log("You're listening to the smooth sounds of port " + port);
-});
+app.listen(process.env.PORT || port);
