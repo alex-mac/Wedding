@@ -14,13 +14,13 @@ app.get('/', function(req, res) {
 });
 
 app.post('/', function(req, res) {
-  db.response.create({ fullName: 'Brian', email: 'Hague', message: "orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, \
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum." }).then(function(data) {
-  // you can now access the newly created task via the variable data
-});
+  var fullName = req.body.fullName,
+      email = req.body.email,
+      message = req.body.message
+
+  db.response.create({ fullName: fullName, email: email, message: message }).then(function(data) {
+    console.log('your data base been successfully recorded.');
+  });
 })
 //404 page, using Express middleware
 app.use(function(req, res, next) {
@@ -29,6 +29,6 @@ app.use(function(req, res, next) {
 });
 
 var port = 3000
-app.listen(process.env.PORT || post, function() {
+app.listen(process.env.PORT || port, function() {
   console.log("You're listening to the smooth sounds of port " + port);
 });
