@@ -24,7 +24,7 @@ app.post('/', function(req, res) {
   });
 })
 
-app.get('/guest/list', function(req, res) {
+app.get('/guestlist', function(req, res) {
   db.response.findAll().then(function(data) {
     res.render('guestlist', {data: data});
   })

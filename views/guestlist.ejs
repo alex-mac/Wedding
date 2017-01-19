@@ -2,16 +2,29 @@
 <html>
 <head>
   <title></title>
+  <link rel="stylesheet" type="text/css" href="css/guestlist.css">
 </head>
+
 <body>
-  <p>
-    Hello Alex
-  </p>
+
+  <table >
+  <tr>
+    <th>Id</th>
+    <th>Full Name</th>
+    <th>Email</th> 
+    <th>Message</th>
+  </tr>
+  <% var id = 1; %>
   <% data.forEach(function(entry) { %>
-    <p>
-      Full Name: <%= entry.fullName %> <br>
-      Email: <%= entry.email %><br>
-      Message: <%= entry.message %>    </p>
-<% }); %>
+    <tr>
+      <td><%= id %></td>
+      <td><%= entry.fullName %></td>
+      <td><%= entry.email %></td> 
+      <td><%= entry.message %></td>
+    </tr>
+    <% id++; %>
+  <% }); %>
+</table>
+
 </body>
 </html>
