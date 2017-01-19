@@ -23,6 +23,13 @@ app.post('/', function(req, res) {
     console.log('your data base been successfully recorded.');
   });
 })
+
+app.get('/guest/list', function(req, res) {
+  db.response.findAll().then(function(data) {
+    res.render('guestlist', {data: data});
+  })
+});
+
 //404 page, using Express middleware
 app.use(function(req, res, next) {
   res.status(404).send('Error');

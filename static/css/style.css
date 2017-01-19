@@ -7,7 +7,8 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  /*font-family: 'Trirong', serif;*/
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
   background: #F4F4F4;
 }
 
@@ -17,19 +18,21 @@ body {
 }
 
 section {
-  /*min-height: 400px;*/
   width: 100%;
   padding: 40px 0;
 }
 
 .content {
   max-width: 980px;
-  /*border: 5px solid coral;*/
   margin: 0 auto;
-  /*position: relative;*/
+}
+
+h1 {
+   font-family: 'Trirong', serif;
 }
 
 h2 {
+
   text-align: center;
 }
 
@@ -111,7 +114,7 @@ ul {
   color
   padding: 0;
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 

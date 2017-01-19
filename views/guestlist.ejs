@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <p>
+    Hello Alex
+  </p>
+  <% data.forEach(function(entry) { %>
+    <p>
+      Full Name: <%= entry.fullName %> <br>
+      Email: <%= entry.email %><br>
+      Message: <%= entry.message %>    </p>
+<% }); %>
+</body>
+</html>
