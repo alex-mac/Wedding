@@ -30,19 +30,16 @@
   right: 9%;*/
   top: 10%;
   right: 3%;
-  z-index: 1000;
+  z-index: 100;
   cursor: pointer;
   border-radius: 50%;
   /*transition: all 0.2s ease-in-out;*/
 
   background: rgba(255, 255, 255, 0.4);
-    /*background: rgba(0, 0, 0, 0.4);*/
-
-  
   visibility: visible;
   opacity: 1;
-  /*transition: visibility 0s linear 0s, opacity 400ms;*/
-  transition: 100ms linear;
+  transition: visibility 0s linear 0s, opacity 400ms;
+  /*transition: 100ms linear;*/
 }
 
 .hamburger-icon:hover {
@@ -50,8 +47,6 @@
   transition: 100ms linear;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
-
-
 
 .icon-1.a {
   transform: rotate(40deg);
@@ -64,10 +59,10 @@
 .icon-2.c {
   opacity: 0;
 }
-
+/*
 .clear {
   clear: both;
-}
+}*/
 
 @keyframes slideIn {
   0% {
@@ -118,7 +113,6 @@ nav ul #navres {
 }
 nav ul li #navres {
   list-style: none;
-  font-size: 24px;
   color: #fff;
   line-height: 2.2;
   text-transform: uppercase;
