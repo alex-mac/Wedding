@@ -125,15 +125,13 @@ header nav ul li {
   color: gray;
 }
 
-
 .half {
   width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-
-@media screen and (min-width: 960px) {
+@media (min-width: 720px) {
   header {
     height: 100vh;
     transition: 0.5s;

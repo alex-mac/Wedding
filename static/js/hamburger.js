@@ -6,17 +6,18 @@ jQuery(document).ready(function($){
   var icon3 = document.getElementById("c");
   var nav = document.getElementById('navres');
   var blue = document.getElementById("blue");
-  var li = document.getElementById("pullout-menu");
+  var ul = document.getElementById("pullout-menu");
 
   icon.addEventListener('click', function() {
     icon1.classList.toggle('a');
     icon2.classList.toggle('c');
     icon3.classList.toggle('b');
+    ul.classList.toggle('hide');
     nav.classList.toggle('show');
     blue.classList.toggle('slide');
   });
 
-  li.addEventListener('click', function() {
+  ul.addEventListener('click', function() {
     icon1.classList.toggle('a');
     icon2.classList.toggle('c');
     icon3.classList.toggle('b');
