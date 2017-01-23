@@ -112,15 +112,13 @@ ul {
   color
   padding: 0;
   margin: 0;
-  font-size: 1.1rem;
   font-weight: bold;
 }
 
 header nav ul li {
   display: inline-block;
-  /*padding: 0 40px;*/
-  padding: 20px 5%;
-  color: gray;
+  padding: 1% 2%;
+  font-size: 2rem;
 }
 
 .half {
@@ -129,7 +127,7 @@ header nav ul li {
   margin: 0 auto;
 }
 
-@media (min-width: 720px) {
+@media screen and (min-width: 720px) {
   header {
     height: 100vh;
     transition: 0.5s;
@@ -166,12 +164,7 @@ header nav ul li {
   background: orange;
 }
 
-/**/
 
-.floated_img
-{
-    float: left;
-}
 
 /*
 #rsvp {

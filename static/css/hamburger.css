@@ -158,7 +158,7 @@ nav #navres.show {
   }
 }
 
-@media (min-width: 720px) {
+@media screen and (min-width: 720px) {
   .hamburger-icon {
     visibility: hidden;
     opacity: 0;
