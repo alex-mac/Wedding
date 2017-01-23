@@ -112,14 +112,14 @@ ul {
   color
   padding: 0;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 
 header nav ul li {
   display: inline-block;
   /*padding: 0 40px;*/
-  padding: 20px 40px;
+  padding: 20px 5%;
   color: gray;
 }
 
@@ -141,11 +141,11 @@ header nav ul li {
   }
 
   #navbar {
-    visibility: hidden;
+    visibility: visible;
   }
 
   #navres {
-    visibility: visible;
+    visibility: hidden;
   }
 
   .half {

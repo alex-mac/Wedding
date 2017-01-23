@@ -1,8 +1,9 @@
 .icon-1, .icon-2, .icon-3 {
-  position: absolute;
+  position: relative;
   left: 25%;
   top: 48%;
-  width: 32px;
+  /*width: 32px;*/
+  width: 50px;
   /*width: 2.5rem;*/
   height: 3px;
   /*height: .2rem;*/
@@ -22,14 +23,14 @@
 
 .hamburger-icon {
   position: fixed;
-  height: 60px;
-  width: 60px;
+  height: 100px;
+  width: 100px;
   /*height: 5rem;*/
   /*width: 5rem;*/
 /*  top: 8%;
   right: 9%;*/
   top: 10%;
-  right: 3%;
+  right: 5%;
   z-index: 100;
   cursor: pointer;
   border-radius: 50%;
@@ -49,11 +50,17 @@
 }
 
 .icon-1.a {
+  position: absolute;
   transform: rotate(40deg);
+  transition: all 400ms cubic-bezier(0.84, 0.06, 0.52, 1.8);
+
 }
 
 .icon-3.b {
+  position: absolute;
   transform: rotate(-40deg);
+  transition: all 400ms cubic-bezier(0.84, 0.06, 0.52, 1.8);
+
 }
 
 .icon-2.c {
@@ -151,11 +158,11 @@ nav #navres.show {
   }
 }
 
-/*@media (min-width: 720px) {
+@media (min-width: 720px) {
   .hamburger-icon {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s linear 400ms, opacity 400ms;
     
   }
-}*/
+}
