@@ -1,12 +1,9 @@
 .icon-1, .icon-2, .icon-3 {
-  position: relative;
+  position: absolute;
   left: 25%;
-  top: 48%;
-  /*width: 32px;*/
-  width: 50px;
-  /*width: 2.5rem;*/
+  top: 50%;
+  width: 32px;
   height: 3px;
-  /*height: .2rem;*/
   background-color: white;
   transition: all 400ms cubic-bezier(0.84, 0.06, 0.52, 1.8);
 }
@@ -23,24 +20,17 @@
 
 .hamburger-icon {
   position: fixed;
-  height: 100px;
-  width: 100px;
-  /*height: 5rem;*/
-  /*width: 5rem;*/
-/*  top: 8%;
-  right: 9%;*/
+  height: 60px;
+  width: 60px;
   top: 10%;
   right: 5%;
-  z-index: 100;
+  z-index: 1000;
   cursor: pointer;
   border-radius: 50%;
-  /*transition: all 0.2s ease-in-out;*/
-
   background: rgba(255, 255, 255, 0.4);
   visibility: visible;
   opacity: 1;
-  transition: visibility 0s linear 0s, opacity 400ms;
-  /*transition: 100ms linear;*/
+  transition: 100ms linear;
 }
 
 .hamburger-icon:hover {
@@ -50,30 +40,24 @@
 }
 
 .icon-1.a {
-  position: absolute;
   transform: rotate(40deg);
-  transition: all 400ms cubic-bezier(0.84, 0.06, 0.52, 1.8);
-
 }
 
 .icon-3.b {
-  position: absolute;
   transform: rotate(-40deg);
-  transition: all 400ms cubic-bezier(0.84, 0.06, 0.52, 1.8);
-
 }
 
 .icon-2.c {
   opacity: 0;
 }
-/*
+
 .clear {
   clear: both;
-}*/
+}
 
 @keyframes slideIn {
   0% {
-    width: 50%;
+    width: 0%;
     opacity: 0;
   }
   100% {
@@ -82,34 +66,16 @@
   }
 }
 
-.dark-blue {
-  position: fixed;
-  top: 0;
-  right: -50%;
-  background: #64B5F6;
-  height: 100%;
-  width: 50%;
-  transition: all 500ms cubic-bezier(0.25, 1, 0.25, 1);
-  transition-delay: 50ms;
-  z-index: 5;
-  opacity: 1;
-}
-
-.dark-blue.slide {
-  opacity: 1;
-  right: 0;
-}
-
 nav #navres {
   background: #0288D1;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%;
+  width: 0%;
   z-index: 10;
-  opacity: 1;
-  transition: all 500ms cubic-bezier(0.25, 1, 0.25, 1);
+  opacity: 0;
+  transition: all 600ms cubic-bezier(0.62, 0.04, 0.3, 1.56);
   transition-delay: 100ms;
 }
 nav ul #navres {
@@ -120,6 +86,7 @@ nav ul #navres {
 }
 nav ul li #navres {
   list-style: none;
+  font-size: 24px;
   color: #fff;
   line-height: 2.2;
   text-transform: uppercase;
@@ -133,6 +100,69 @@ nav #navres.show {
 
 #pullout-menu {
   padding: 0px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    transition-delay: 500ms;
+}
+
+#pullout li {
+  margin: 10px 0;
+}
+
+.dark-blue {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: rgba(39, 71, 96, .9);
+
+  height: 100%;
+  width: 0%;
+  transition: all 500ms cubic-bezier(0.62, 0.04, 0.3, 1.8);
+  transition-delay: 50ms;
+  z-index: 5;
+  opacity: 1;
+}
+
+.dark-blue.slide {
+  width: 100%;
+  opacity: 1;
+}
+
+@keyframes shotup {
+  0% {
+    transform: translateY(300%);
+    opacity: 0;
+  }
+  90% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .hamburger-icon {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 400ms, opacity 400ms;
+    
+  }
+}
+
+/*
+
+
+#pullout-menu {
+  padding: 0px;
+  width: 100%;
   border: 5px solid orange;
   position: absolute;
   top: 50%;
@@ -165,4 +195,4 @@ nav #navres.show {
     transition: visibility 0s linear 400ms, opacity 400ms;
     
   }
-}
+}*/
