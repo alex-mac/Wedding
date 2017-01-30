@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/static'));
 app.use(bodyParser.urlencoded({extended: false}));
 
 
-app.get('/js', function(req, res) {
+app.get('/jp', function(req, res) {
   res.render('japanese');
 });
 

@@ -27,7 +27,7 @@
   z-index: 1000;
   cursor: pointer;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(122, 122, 122, 0.6);
   visibility: visible;
   opacity: 1;
   transition: 100ms linear;
@@ -119,7 +119,7 @@ nav #navres.show {
   position: fixed;
   top: 0;
   right: 0;
-  background: rgba(39, 71, 96, .9);
+  background: rgba(39, 71, 96, .95);
 
   height: 100%;
   width: 0%;
@@ -148,7 +148,7 @@ nav #navres.show {
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 720px) {
   .hamburger-icon {
     visibility: hidden;
     opacity: 0;
