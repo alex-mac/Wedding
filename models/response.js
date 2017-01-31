@@ -3,7 +3,11 @@ module.exports = function(sequelize, DataTypes) {
   var response = sequelize.define('response', {
     fullName: DataTypes.STRING,
     email: DataTypes.STRING,
-    message: DataTypes.TEXT
+    adults: DataTypes.INTEGER,
+    children: DataTypes.INTEGER,
+    infants: DataTypes.INTEGER,
+    cost: DataTypes.INTEGER,
+    message: DataTypes.STRING
   }, {
     classMethods: {
       associate: function(models) {

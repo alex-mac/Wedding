@@ -12,6 +12,10 @@
     <th>Id</th>
     <th>Full Name</th>
     <th>Email</th> 
+    <th>Adults</th>
+    <th>Children</th>
+    <th>Infants</th>
+    <th>Cost</th>
     <th>Message</th>
   </tr>
   <% var id = 1; %>
@@ -20,6 +24,10 @@
       <td><%= id %></td>
       <td><%= entry.fullName %></td>
       <td><%= entry.email %></td> 
+      <td><%= entry.adults %></td> 
+      <td><%= entry.children %></td> 
+      <td><%= entry.infants %></td> 
+      <td><%= entry.cost %></td> 
       <td><%= entry.message %></td>
     </tr>
     <% id++; %>

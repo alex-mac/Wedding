@@ -14,8 +14,20 @@ module.exports = {
       email: {
         type: Sequelize.STRING
       },
+      adults: {
+        type: Sequelize.INTEGER
+      },
+      children: {
+        type: Sequelize.INTEGER
+      },
+      infants: {
+        type: Sequelize.INTEGER
+      },
+      cost: {
+        type: Sequelize.INTEGER
+      },
       message: {
-        type: Sequelize.TEXT
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,

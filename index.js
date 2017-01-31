@@ -17,9 +17,22 @@ app.get('/', function(req, res) {
 app.post('/', function(req, res) {
   var fullName = req.body.fullName,
       email = req.body.email,
-      message = req.body.message
+      adults = req.body.adult,
+      children = req.body.child,
+      infants = req.body.infant,
+      message = req.body.message;
 
-  db.response.create({ fullName: fullName, email: email, message: message }).then(function(data) {
+  var cost = 10000 * adults + 3500 * children;
+
+  db.response.create({ 
+    fullName: fullName, 
+    email: email, 
+    adults: adults,
+    children: children,
+    infants: infants,
+    cost: cost,
+    message: message 
+  }).then(function(data) {
     console.log('your data base been successfully recorded.');
   });
 })
@@ -31,11 +44,26 @@ app.get('/jp', function(req, res) {
 app.post('/jp', function(req, res) {
   var fullName = req.body.fullName,
       email = req.body.email,
-      message = req.body.message
+      adults = req.body.adult,
+      children = req.body.child,
+      infants = req.body.infant,
+      message = req.body.message;
 
-  db.response.create({ fullName: fullName, email: email, message: message }).then(function(data) {
+  var cost = 10000 * adults + 3500 * children;
+
+
+  db.response.create({ 
+    fullName: fullName, 
+    email: email, 
+    adults: adults,
+    children: children,
+    infants: infants,
+    cost: cost,
+    message: message 
+  }).then(function(data) {
     console.log('your data base been successfully recorded.');
   });
+  res.render('success');
 })
 
 app.get('/guestlist', function(req, res) {
