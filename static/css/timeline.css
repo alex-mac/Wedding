@@ -257,10 +257,9 @@ header h1 {
 .cd-timeline-content h2 {
   color: #303e49;
 }
-.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
+/*.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 0.8125rem;
-}
+}*/
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
 }
@@ -294,7 +293,7 @@ header h1 {
   border-right: 7px solid white;
 }
 @media only screen and (min-width: 768px) {
-  .cd-timeline-content h2 {
+  /*.cd-timeline-content h2 {
     font-size: 20px;
     font-size: 1.25rem;
   }
@@ -305,7 +304,7 @@ header h1 {
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
     font-size: 0.875rem;
-  }
+  }*/
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
