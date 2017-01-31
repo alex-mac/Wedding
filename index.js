@@ -63,7 +63,7 @@ app.post('/jp', function(req, res) {
   }).then(function(data) {
     console.log('your data base been successfully recorded.');
   });
-  res.render('success');
+  res.send('success');
 })
 
 app.get('/guestlist', function(req, res) {
