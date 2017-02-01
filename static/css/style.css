@@ -12,7 +12,7 @@
 body {
   margin: 0;
   font-family: SNsanafonmaruP, "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   background: #F4F4F4;
 }
 
@@ -32,7 +32,6 @@ section {
 }
 
 h2 {
-
   text-align: center;
 }
 
@@ -154,6 +153,10 @@ header nav ul li {
     width: 50%;
     display: inline-block;
   }
+
+  .min-height-600 {
+    height: 10000px;
+  }
 }
 
 #about-us {
@@ -166,4 +169,8 @@ header nav ul li {
 
 #when-where {
   background: orange;
+}
+
+.min-height-600 {
+  height: 400px;
 }
