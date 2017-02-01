@@ -29,7 +29,7 @@
               <li><a data-scroll href="#home">ホーム</a></li>
               <li><a data-scroll href="#our-story">私たちについて</a></li>
               <li><a data-scroll href="#when-where">開催日時・場所</a></li>
-              <li><a data-scroll href="#rsvp">参加予約</a></li>
+              <li><a data-scroll href="#RSVP">参加予約</a></li>
             </ul>
           </nav>
           <div class="dark-blue" id="blue">
@@ -38,7 +38,7 @@
               <li><a href="#home">ホーム</a></li><br>
               <li><a href="#our-story">私たちについて</a></li><br>
               <li><a href="#when-where">開催日時・場所</a></li><br>
-              <li><a href="#rsvp">参加予約￥</a></li>
+              <li><a href="#RSVP">参加予約￥</a></li>
             </ul>
           </nav>
           </div>
@@ -123,9 +123,9 @@
         </div>
       </section>
 
-      <section>
+      <section id="photos">
         <div class="content">
-          <h2>Some of the our favorite photos</h2>
+          <h2>思い出の写真☆</h2>
           <ul class="rslides min-height-600">
             <li ><img src="img/slideshow/alex-birthday.jpg" class="slider-img" ></li>
             <li ><img src="img/slideshow/anna-farewell.jpg" class="slider-img" ></li>
@@ -141,12 +141,20 @@
       <section id="when-where">
         <div class="content">
           <h2>開催日時・場所</h2>
+          <h3>開催日時</h3>
+          <div style="text-align:center">
+            2017年8月6日(日)　17:00-19:00
+
+          </div>
+          <h3>場所</h3>
+          <div style="text-align:center">
+            アンジェパティオ<br>
+            東京都渋谷区南平台町12-1<br>
+            03-3476-7712<br><br>
+          </div>
           <ul class="rslides">
             <li><img src="img/angepatio.png"></li>
           </ul>
-          Location: アンジェパティオ<br>
-          Address: 東京都渋谷区南平台町12-1<br>
-          Phone: 03-3476-7712
         </div>
       </section>
 
@@ -155,17 +163,17 @@
 
         <form class="form-style-6" method="post">
           <p>
-          ご出席できる方はお名前とメールアドレス、参加人数を記入してください。
-          食物アレルギーなど注意事項がありましたらメッセージ欄にご記入下さい。
-          その他メッセージがありましたら何でもご自由にお書き下さい。
-          パーティーは会費制で参加費一人１万円(13歳以上)になります。<br><br>
+          ご出席できる方はお名前とメールアドレス、参加人数を記入してください。<br>
+          食物アレルギーなど注意事項がありましたらメッセージ欄にご記入下さい。<br>
+          その他メッセージがありましたら何でもご自由にお書き下さい。<br>
+          パーティーは会費制で参加費一人１万円(13歳以上)になります。<br>
           ご祝儀は不要です。<br>
-          ご参加誠にありがとうございます！<br>
+          <br>
           当日お会いできるのを楽しみにしています！<br>
           </p>
           <hr>
           <div>
-            <label class="desc" id="title1" for="fullName">Full Name</label>
+            <label class="desc" id="title1" for="fullName">氏名</label>
             <div>
               <input id="fullName" name="fullName" type="text" class="field text fn" value="" size="8" tabindex="1">
             </div>
@@ -173,7 +181,7 @@
 
           <div>
             <label class="desc" id="title3" for="email">
-              Email
+              メールアドレス
             </label>
             <div>
               <input id="email" name="email" type="email" spellcheck="false" value="" maxlength="255" tabindex="2">
@@ -182,21 +190,21 @@
 
           <div class="admission">
             <label class="desc" id="adult" for="adult">
-              Adult (13+) 10,000円
+              大人 (13歳以上) 10,000円
             </label>
             <div>
               <input id="adult" class="guest-count" name="adult" type="number" min="0" max="9" value="0" tabindex="3">
            </div>
 
            <label class="desc" id="child" for="child">
-              Child (5-12) 3,500円
+              子供 (5-12歳) 3,500円
             </label>
             <div>
               <input id="child" class="guest-count" name="child" type="number" min="0" max="9" value="0" tabindex="4">
            </div>
 
            <label class="desc" id="infant" for="infant">
-              Infant (less than 5) 無料
+              幼児 (5歳未満) 無料
             </label>
             <div>
               <input id="infant" class="guest-count" name="infant" type="number" min="0" max="9" value="0" tabindex="5">
@@ -205,7 +213,7 @@
 
           <div>
             <label class="desc" id="title4" for="message">
-              Message
+              メッセージ
             </label>
 
             <div>
@@ -213,16 +221,12 @@
             </div>
           </div>
 
-              <input id="submitForm" name="submitForm" type="submit" value="Submit">
+              <input style="font-size:18px" id="submitForm" name="submitForm" type="submit" value="送信">
             </div>
           </div>
 
         </form>
       </section>
-      <section>
-        <div class="content"></div>
-      </section>
-      <footer></footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/responsiveslides.min.js"></script>

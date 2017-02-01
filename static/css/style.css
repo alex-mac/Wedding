@@ -159,17 +159,40 @@ header nav ul li {
   }
 }
 
-#about-us {
-  background: #e74c3c;
+/*#RSVP {
+  background: #FFCDD2;
 }
 
-#our-story {
-  background: deepSkyBlue;
+#photos {
+  background: #FFCDD2;
+
 }
 
 #when-where {
-  background: orange;
+  background: #CC697C;
+
 }
+
+#our-story {
+  background: #CC697C;
+ 
+}*/
+
+#RSVP {
+  background: deepSkyBlue;
+}
+
+#photos {
+  background: orange;
+
+}
+
+#when-where {
+  background: yellow;
+
+}
+
+
 
 .min-height-600 {
   height: 400px;
