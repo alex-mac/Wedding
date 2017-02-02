@@ -35,6 +35,7 @@ app.post('/', function(req, res) {
   }).then(function(data) {
     console.log('your data base been successfully recorded.');
   });
+  res.render('success');
 })
 
 app.get('/jp', function(req, res) {
@@ -51,7 +52,6 @@ app.post('/jp', function(req, res) {
 
   var cost = 10000 * adults + 3500 * children;
 
-
   db.response.create({ 
     fullName: fullName, 
     email: email, 
@@ -62,8 +62,9 @@ app.post('/jp', function(req, res) {
     message: message 
   }).then(function(data) {
     console.log('your data base been successfully recorded.');
+
   });
-  res.send('success');
+  res.render('success');
 })
 
 app.get('/guestlist', function(req, res) {
