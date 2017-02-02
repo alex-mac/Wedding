@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/alex-mac/Wedding#readme",
   "dependencies": {
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.16.0",
     "ejs": "^2.5.5",
-    "express": "^4.14.0",
+    "express": "^4.14.1",
     "pg": "^6.1.2",
     "pg-hstore": "^2.3.2",
     "request": "^2.79.0",
