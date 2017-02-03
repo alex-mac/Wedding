@@ -73,15 +73,6 @@ app.get('/guestlist', function(req, res) {
   })
 });
 
-app.get('/guestlist/:id', function(req, res) {
-  var id = req.params.id;
-  db.response.find({where: {id: id}}).then(function(item) {
-    item.destroy().then(function() {
-      res.send("destroyed record " + id);
-    });
-  })
-})
-
 //404 page, using Express middleware
 app.use(function(req, res, next) {
   res.status(404).send('Error');
