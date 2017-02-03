@@ -14,10 +14,6 @@ app.get('/', function(req, res) {
   res.render('japanese');
 })
 
-app.get('/success', function(req, res) {
-  res.render('success');
-})
-
 app.post('/', function(req, res) {
   var fullName = req.body.fullName,
       email = req.body.email,
@@ -76,6 +72,15 @@ app.get('/guestlist', function(req, res) {
     res.render('guestlist', {data: data});
   })
 });
+
+app.get('/guestlist/:id', function(req, res) {
+  var id = req.params.id;
+  db.response.find({where: {id: id}}).then(function(item) {
+    item.destroy().then(function() {
+      res.send("destroyed record " + id);
+    });
+  })
+})
 
 //404 page, using Express middleware
 app.use(function(req, res, next) {
