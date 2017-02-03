@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 app.get('/', function(req, res) {
-  res.render('japanese');
+  res.render('japanese-minified');
 })
 
 app.post('/', function(req, res) {
@@ -39,7 +39,7 @@ app.post('/', function(req, res) {
 })
 
 app.get('/jp', function(req, res) {
-  res.render('japanese');
+  res.render('japanese-minified');
 });
 
 app.post('/jp', function(req, res) {
