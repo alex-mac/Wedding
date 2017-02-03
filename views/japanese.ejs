@@ -211,7 +211,6 @@
 
       <section id="RSVP">
         <h2>参加予約</h2>
-
         <form class="form-style-6" method="post">
           <p>
             ご出席できる方はお名前とメールアドレス、参加人数を記入してください。<br>
@@ -244,34 +243,34 @@
             </label>
             <div>
               <input id="adult" class="guest-count" name="adult" type="number" min="0" max="9" value="0" tabindex="3">
-           </div>
+            </div>
 
            <label class="desc" id="child" for="child">
-              子供 (5-12歳) 3,500円
-            </label>
-            <div>
-              <input id="child" class="guest-count" name="child" type="number" min="0" max="9" value="0" tabindex="4">
-           </div>
-
-           <label class="desc" id="infant" for="infant">
-              幼児 (5歳未満) 無料
-            </label>
-            <div>
-              <input id="infant" class="guest-count" name="infant" type="number" min="0" max="9" value="0" tabindex="5">
-           </div>
+            子供 (5-12歳) 3,500円
+          </label>
+          <div>
+            <input id="child" class="guest-count" name="child" type="number" min="0" max="9" value="0" tabindex="4">
           </div>
+
+          <label class="desc" id="infant" for="infant">
+            幼児 (5歳未満) 無料
+          </label>
+          <div>
+            <input id="infant" class="guest-count" name="infant" type="number" min="0" max="9" value="0" tabindex="5">
+          </div>
+        </div>
+
+        <div>
+          <label class="desc" id="title4" for="message">
+            メッセージ
+          </label>
 
           <div>
-            <label class="desc" id="title4" for="message">
-              メッセージ
-            </label>
-
-            <div>
-              <textarea id="message" name="message" spellcheck="true" rows="10" cols="50" tabindex="6"></textarea>
-            </div>
+            <textarea id="message" name="message" spellcheck="true" placeholder="任意" rows="10" cols="50" tabindex="6"></textarea>
           </div>
+        </div>
 
-              <input style="font-size:18px" id="submitForm" name="submitForm" type="submit" value="送信">
+        <input style="font-size:18px" id="submitForm" name="submitForm" type="submit" value="送信">
             </div>
           </div>
 
@@ -282,7 +281,6 @@
     <script src="js/responsiveslides.min.js"></script>
 
     <script>
-
       $(window).scroll(function () {
         if ( $(window).scrollTop() >= $("header").height() - 70) {
           $('#navbar').addClass("scrolled");

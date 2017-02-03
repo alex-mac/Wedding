@@ -9,7 +9,7 @@
 
   <table >
   <tr>
-    <th>Id</th>
+    <th>Guest No.</th>
     <th>Full Name</th>
     <th>Email</th> 
     <th>Adults</th>
@@ -18,7 +18,7 @@
     <th>Cost</th>
     <th>Message</th>
   </tr>
-  <% var id = 1; %>
+  <% var id = 1; var total = 0; %>
   <% data.forEach(function(entry) { %>
     <tr>
       <td><%= id %></td>
@@ -31,8 +31,18 @@
       <td><%= entry.message %></td>
     </tr>
     <% id++; %>
+    <% total += entry.cost %>
   <% }); %>
+  <tr>
+    <td><%= id %></td>
+    <td> - </td>
+    <td> - </td> 
+    <td> - </td> 
+    <td> - </td> 
+    <td>Total Cost:</td> 
+    <td><%= total %></td> 
+    <td> - </td>
+  </tr>
 </table>
-
 </body>
 </html>
