@@ -14,6 +14,10 @@ app.get('/', function(req, res) {
   res.render('japanese-minified');
 })
 
+app.get('/en', function(req, res) {
+  res.render('english-minified');
+})
+
 app.post('/', function(req, res) {
   var fullName = req.body.fullName,
       email = req.body.email,
