@@ -1,0 +1,101 @@
+2017-02-10T02:19:58.210639+00:00 heroku[web.1]: Unidling
+2017-02-10T02:19:58.210838+00:00 heroku[web.1]: State changed from down to starting
+2017-02-10T02:20:00.459346+00:00 heroku[web.1]: Starting process with command `node index.js`
+2017-02-10T02:20:04.067652+00:00 heroku[web.1]: State changed from starting to up
+2017-02-10T02:20:05.283693+00:00 heroku[router]: at=info method=GET path="/jp" host=www.alexandharuka.com request_id=b92a85ad-0c46-4152-ab1c-a106f1ab8902 fwd="60.112.120.202" dyno=web.1 connect=0ms service=22ms status=304 bytes=147
+2017-02-10T02:20:05.928197+00:00 heroku[router]: at=info method=GET path="/css/form.css" host=www.alexandharuka.com request_id=d2a4d746-89a3-46aa-a0fc-1e59ccbf7a19 fwd="60.112.120.202" dyno=web.1 connect=1ms service=5ms status=304 bytes=237
+2017-02-10T02:20:06.177144+00:00 heroku[router]: at=info method=GET path="/css/slideshow.css" host=www.alexandharuka.com request_id=c64920e7-2c08-4843-a8fb-e41393cae550 fwd="60.112.120.202" dyno=web.1 connect=1ms service=4ms status=304 bytes=237
+2017-02-10T02:20:06.192894+00:00 heroku[router]: at=info method=GET path="/js/responsiveslides.min.js" host=www.alexandharuka.com request_id=03bac972-4e06-4cb8-ae5d-1223618d1b52 fwd="60.112.120.202" dyno=web.1 connect=1ms service=9ms status=304 bytes=237
+2017-02-10T02:20:06.197867+00:00 heroku[router]: at=info method=GET path="/css/timeline.minified.css" host=www.alexandharuka.com request_id=99935778-4cf9-42c4-812e-ea60f1c8adde fwd="60.112.120.202" dyno=web.1 connect=0ms service=3ms status=304 bytes=238
+2017-02-10T02:20:06.204060+00:00 heroku[router]: at=info method=GET path="/img/timeline/japan-min.jpg" host=www.alexandharuka.com request_id=97a91c6a-d0a5-4d37-b590-e4eba0b92a47 fwd="60.112.120.202" dyno=web.1 connect=0ms service=2ms status=304 bytes=239
+2017-02-10T02:20:06.192078+00:00 heroku[router]: at=info method=GET path="/img/cd-icon-location.svg" host=www.alexandharuka.com request_id=401d2d43-a5c0-4718-acd2-2d33c60e8291 fwd="60.112.120.202" dyno=web.1 connect=1ms service=1ms status=304 bytes=237
+2017-02-10T02:20:06.211211+00:00 heroku[router]: at=info method=GET path="/img/slideshow/alex-birthday-min.jpg" host=www.alexandharuka.com request_id=7e8c8b6b-961b-4994-be9b-467178a5ddd5 fwd="60.112.120.202" dyno=web.1 connect=0ms service=5ms status=304 bytes=238
+2017-02-10T02:20:06.214782+00:00 heroku[router]: at=info method=GET path="/img/slideshow/USJ-min.jpg" host=www.alexandharuka.com request_id=97985e8f-3729-427a-928a-3098c3923222 fwd="60.112.120.202" dyno=web.1 connect=1ms service=2ms status=304 bytes=239
+2017-02-10T02:20:06.183734+00:00 heroku[router]: at=info method=GET path="/js/hamburger.js" host=www.alexandharuka.com request_id=0a84eb4a-ea80-449d-9124-5a154a20a676 fwd="60.112.120.202" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-10T02:20:06.199984+00:00 heroku[router]: at=info method=GET path="/js/slideshow.js" host=www.alexandharuka.com request_id=aa1700c1-e2ae-496c-be44-b7a99c882b2d fwd="60.112.120.202" dyno=web.1 connect=1ms service=4ms status=304 bytes=236
+2017-02-10T02:20:06.211253+00:00 heroku[router]: at=info method=GET path="/js/parallax.js" host=www.alexandharuka.com request_id=c7b1adae-ad9b-47f3-ba05-b2855497f0ce fwd="60.112.120.202" dyno=web.1 connect=1ms service=8ms status=304 bytes=238
+2017-02-10T02:20:06.183215+00:00 heroku[router]: at=info method=GET path="/js/smooth-scroll.min.js" host=www.alexandharuka.com request_id=d82ca106-8afb-4781-9245-58ff4c2cfce5 fwd="60.112.120.202" dyno=web.1 connect=1ms service=2ms status=304 bytes=238
+2017-02-10T02:20:06.193222+00:00 heroku[router]: at=info method=GET path="/img/timeline/birthday-min.jpg" host=www.alexandharuka.com request_id=1220ad2e-153f-431d-956f-7680b82b16b0 fwd="60.112.120.202" dyno=web.1 connect=1ms service=3ms status=304 bytes=238
+2017-02-10T02:20:06.215317+00:00 heroku[router]: at=info method=GET path="/js/main.js" host=www.alexandharuka.com request_id=2c43e189-a247-4350-8c92-fd7575c70e96 fwd="60.112.120.202" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-10T02:20:06.199305+00:00 heroku[router]: at=info method=GET path="/img/slideshow/bench-min.jpg" host=www.alexandharuka.com request_id=ff0b4f8d-22d4-4261-a421-34891967801d fwd="60.112.120.202" dyno=web.1 connect=0ms service=4ms status=304 bytes=239
+2017-02-10T02:20:06.202750+00:00 heroku[router]: at=info method=GET path="/img/slideshow/yellow-house-min.jpg" host=www.alexandharuka.com request_id=059f554d-fb61-4d2c-9568-94a6b34bb3b1 fwd="60.112.120.202" dyno=web.1 connect=0ms service=2ms status=304 bytes=238
+2017-02-10T02:20:06.184388+00:00 heroku[router]: at=info method=GET path="/css/hamburger.minified.css" host=www.alexandharuka.com request_id=fffd5d8d-2d29-4a9d-afec-5acd3f517693 fwd="60.112.120.202" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-10T02:20:06.179273+00:00 heroku[router]: at=info method=GET path="/css/style.minified.css" host=www.alexandharuka.com request_id=215dcd7c-a11c-4b56-a51a-8e526c39a858 fwd="60.112.120.202" dyno=web.1 connect=1ms service=6ms status=304 bytes=237
+2017-02-10T02:20:06.187684+00:00 heroku[router]: at=info method=GET path="/js/modernizr.minified.js" host=www.alexandharuka.com request_id=79e72bec-ea7a-4d04-aeea-c13fdfbe25b6 fwd="60.112.120.202" dyno=web.1 connect=1ms service=2ms status=304 bytes=238
+2017-02-10T02:20:06.199280+00:00 heroku[router]: at=info method=GET path="/img/timeline/potluck-min.jpg" host=www.alexandharuka.com request_id=35fa1e4f-1718-4870-bcc3-d22fe009b629 fwd="60.112.120.202" dyno=web.1 connect=0ms service=1ms status=304 bytes=238
+2017-02-10T02:20:06.205311+00:00 heroku[router]: at=info method=GET path="/img/timeline/wakaba-min.jpg" host=www.alexandharuka.com request_id=4676ce8b-906f-4fa6-9885-bb5afeff23f3 fwd="60.112.120.202" dyno=web.1 connect=0ms service=4ms status=304 bytes=238
+2017-02-10T02:20:06.211530+00:00 heroku[router]: at=info method=GET path="/img/slideshow/halloween-min.jpg" host=www.alexandharuka.com request_id=b7065d44-e055-443d-b283-66eb46dc8161 fwd="60.112.120.202" dyno=web.1 connect=1ms service=4ms status=304 bytes=239
+2017-02-10T02:20:06.194191+00:00 heroku[router]: at=info method=GET path="/img/slideshow/cafe-japan-min.jpg" host=www.alexandharuka.com request_id=bbf2e974-8a3d-47e8-a15f-954efabdedb5 fwd="60.112.120.202" dyno=web.1 connect=1ms service=5ms status=304 bytes=239
+2017-02-10T02:20:06.193060+00:00 heroku[router]: at=info method=GET path="/img/slideshow/anna-farewell-min.jpg" host=www.alexandharuka.com request_id=457cf978-ae0c-44b3-a592-4f8313504415 fwd="60.112.120.202" dyno=web.1 connect=1ms service=4ms status=304 bytes=239
+2017-02-10T02:20:06.187161+00:00 heroku[router]: at=info method=GET path="/img/cd-icon-picture.svg" host=www.alexandharuka.com request_id=5e95d57e-0e5f-481c-9235-95af8f9f8425 fwd="60.112.120.202" dyno=web.1 connect=0ms service=1ms status=304 bytes=237
+2017-02-10T02:20:06.496807+00:00 heroku[router]: at=info method=GET path="/img/angepatio.png" host=www.alexandharuka.com request_id=d5c34ac9-d250-4ac6-a9aa-78963a73e833 fwd="60.112.120.202" dyno=web.1 connect=2ms service=3ms status=304 bytes=239
+2017-02-10T02:20:07.073177+00:00 heroku[router]: at=info method=GET path="/img/slideshow/tree-min.jpg" host=www.alexandharuka.com request_id=51feaf77-94cc-4af1-9def-b437194865ba fwd="60.112.120.202" dyno=web.1 connect=0ms service=2ms status=304 bytes=239
+2017-02-10T02:20:09.336543+00:00 heroku[router]: at=info method=GET path="/css/SNsanafonmaruP.ttf" host=www.alexandharuka.com request_id=9717e159-4670-4afa-9551-86239c7d40c3 fwd="60.112.120.202" dyno=web.1 connect=1ms service=1ms status=304 bytes=240
+2017-02-10T02:24:17.860232+00:00 heroku[router]: at=info method=POST path="/jp" host=www.alexandharuka.com request_id=e8b1fe2f-7409-449b-94f9-83cc26d53694 fwd="60.112.120.202" dyno=web.1 connect=0ms service=40ms status=200 bytes=518
+2017-02-10T02:24:17.941308+00:00 app[web.1]: Executing (default): INSERT INTO "responses" ("id","fullName","email","adults","children","infants","cost","message","createdAt","updatedAt") VALUES (DEFAULT,'永野浩二、真知子、航','naganos@kiu.biglobe.ne.jp','','0','0',0,'おめでとう❣️
+2017-02-10T02:24:17.941321+00:00 app[web.1]: 日本での結婚披露パーティー楽しみにしています💗
+2017-02-10T02:24:17.941322+00:00 app[web.1]: 
+2017-02-10T02:24:17.952144+00:00 app[web.1]: Unhandled rejection SequelizeDatabaseError: invalid input syntax for integer: ""
+2017-02-10T02:24:17.941329+00:00 app[web.1]: アルとサンはお留守番だけど、みんなで参加します(^^)','2017-02-10 02:24:17.850 +00:00','2017-02-10 02:24:17.850 +00:00') RETURNING *;
+2017-02-10T02:24:17.952147+00:00 app[web.1]:     at Query.formatError (/app/node_modules/sequelize/lib/dialects/postgres/query.js:357:14)
+2017-02-10T02:24:17.952147+00:00 app[web.1]:     at Query.<anonymous> (/app/node_modules/sequelize/lib/dialects/postgres/query.js:88:19)
+2017-02-10T02:24:17.952149+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-10T02:24:17.952150+00:00 app[web.1]:     at Query.emit (events.js:188:7)
+2017-02-10T02:24:17.952150+00:00 app[web.1]:     at Query.handleError (/app/node_modules/pg/lib/query.js:131:8)
+2017-02-10T02:24:17.952151+00:00 app[web.1]:     at Connection.<anonymous> (/app/node_modules/pg/lib/client.js:180:26)
+2017-02-10T02:24:17.952152+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-10T02:24:17.952152+00:00 app[web.1]:     at Connection.emit (events.js:188:7)
+2017-02-10T02:24:17.952153+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/pg/lib/connection.js:121:12)
+2017-02-10T02:24:17.952154+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-10T02:24:17.952154+00:00 app[web.1]:     at Socket.emit (events.js:188:7)
+2017-02-10T02:24:17.952155+00:00 app[web.1]:     at readableAddChunk (_stream_readable.js:176:18)
+2017-02-10T02:24:17.952156+00:00 app[web.1]:     at Socket.Readable.push (_stream_readable.js:134:10)
+2017-02-10T02:24:17.952156+00:00 app[web.1]:     at TCP.onread (net.js:548:20)
+2017-02-10T02:24:18.585061+00:00 heroku[router]: at=info method=GET path="/css/success.css" host=www.alexandharuka.com request_id=36667ac3-494e-48ed-a8af-785f178cd20e fwd="60.112.120.202" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-10T02:24:52.799888+00:00 heroku[router]: at=info method=POST path="/jp" host=www.alexandharuka.com request_id=387f52ba-9c11-4b9f-87fb-9f3eac6f8cae fwd="60.112.120.202" dyno=web.1 connect=0ms service=10ms status=200 bytes=518
+2017-02-10T02:24:52.814067+00:00 app[web.1]: Executing (default): INSERT INTO "responses" ("id","fullName","email","adults","children","infants","cost","message","createdAt","updatedAt") VALUES (DEFAULT,'永野浩二、真知子、航','naganos@kiu.biglobe.ne.jp','','0','0',0,'おめでとう❣️
+2017-02-10T02:24:52.814077+00:00 app[web.1]: 日本での結婚披露パーティー楽しみにしています💗
+2017-02-10T02:24:52.814078+00:00 app[web.1]: 
+2017-02-10T02:24:52.814079+00:00 app[web.1]: アルとサンはお留守番だけど、みんなで参加します(^^)','2017-02-10 02:24:52.793 +00:00','2017-02-10 02:24:52.793 +00:00') RETURNING *;
+2017-02-10T02:24:52.816419+00:00 app[web.1]: Unhandled rejection SequelizeDatabaseError: invalid input syntax for integer: ""
+2017-02-10T02:24:52.816420+00:00 app[web.1]:     at Query.formatError (/app/node_modules/sequelize/lib/dialects/postgres/query.js:357:14)
+2017-02-10T02:24:52.816420+00:00 app[web.1]:     at Query.<anonymous> (/app/node_modules/sequelize/lib/dialects/postgres/query.js:88:19)
+2017-02-10T02:24:52.816421+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-10T02:24:52.816422+00:00 app[web.1]:     at Query.emit (events.js:188:7)
+2017-02-10T02:24:52.816422+00:00 app[web.1]:     at Query.handleError (/app/node_modules/pg/lib/query.js:131:8)
+2017-02-10T02:24:52.816423+00:00 app[web.1]:     at Connection.<anonymous> (/app/node_modules/pg/lib/client.js:180:26)
+2017-02-10T02:24:52.816423+00:00 app[web.1]:     at Connection.emit (events.js:188:7)
+2017-02-10T02:24:52.816423+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-10T02:24:52.816424+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/pg/lib/connection.js:121:12)
+2017-02-10T02:24:52.816424+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-10T02:24:52.816425+00:00 app[web.1]:     at Socket.emit (events.js:188:7)
+2017-02-10T02:24:52.816425+00:00 app[web.1]:     at readableAddChunk (_stream_readable.js:176:18)
+2017-02-10T02:24:52.816426+00:00 app[web.1]:     at Socket.Readable.push (_stream_readable.js:134:10)
+2017-02-10T02:24:52.816426+00:00 app[web.1]:     at TCP.onread (net.js:548:20)
+2017-02-10T02:24:53.124917+00:00 heroku[router]: at=info method=GET path="/css/success.css" host=www.alexandharuka.com request_id=d4ee9e14-a022-4b9b-9430-46d635050f69 fwd="60.112.120.202" dyno=web.1 connect=1ms service=3ms status=304 bytes=237
+2017-02-10T02:25:21.883599+00:00 heroku[router]: at=info method=GET path="/img/timeline/potluck-min.jpg" host=www.alexandharuka.com request_id=41ecab66-3498-409f-a23c-df24a7445299 fwd="173.252.124.206" dyno=web.1 connect=1ms service=19ms status=200 bytes=61272
+2017-02-10T02:27:20.886393+00:00 heroku[router]: at=info method=POST path="/jp" host=www.alexandharuka.com request_id=827ca6f7-6734-4c87-b398-44fa42b749b4 fwd="60.112.120.202" dyno=web.1 connect=0ms service=7ms status=200 bytes=518
+2017-02-10T02:27:20.882127+00:00 app[web.1]: Executing (default): INSERT INTO "responses" ("id","fullName","email","adults","children","infants","cost","message","createdAt","updatedAt") VALUES (DEFAULT,'永野浩二、真知子、航','naganos@kiu.biglobe.ne.jp','','0','0',0,'おめでとう❣️
+2017-02-10T02:27:20.882142+00:00 app[web.1]: 
+2017-02-10T02:27:20.882140+00:00 app[web.1]: 日本での結婚披露パーティー楽しみにしています💗
+2017-02-10T02:27:20.882143+00:00 app[web.1]: アルとサンはお留守番だけど、みんなで参加します(^^)','2017-02-10 02:27:20.862 +00:00','2017-02-10 02:27:20.862 +00:00') RETURNING *;
+2017-02-10T02:27:20.884069+00:00 app[web.1]: Unhandled rejection SequelizeDatabaseError: invalid input syntax for integer: ""
+2017-02-10T02:27:20.884071+00:00 app[web.1]:     at Query.formatError (/app/node_modules/sequelize/lib/dialects/postgres/query.js:357:14)
+2017-02-10T02:27:20.884071+00:00 app[web.1]:     at Query.<anonymous> (/app/node_modules/sequelize/lib/dialects/postgres/query.js:88:19)
+2017-02-10T02:27:20.884073+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-10T02:27:20.884074+00:00 app[web.1]:     at Query.emit (events.js:188:7)
+2017-02-10T02:27:20.884075+00:00 app[web.1]:     at Query.handleError (/app/node_modules/pg/lib/query.js:131:8)
+2017-02-10T02:27:20.884076+00:00 app[web.1]:     at Connection.<anonymous> (/app/node_modules/pg/lib/client.js:180:26)
+2017-02-10T02:27:20.884076+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-10T02:27:20.884076+00:00 app[web.1]:     at Connection.emit (events.js:188:7)
+2017-02-10T02:27:20.884077+00:00 app[web.1]:     at emitOne (events.js:96:13)
+2017-02-10T02:27:20.884077+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/pg/lib/connection.js:121:12)
+2017-02-10T02:27:20.884078+00:00 app[web.1]:     at Socket.emit (events.js:188:7)
+2017-02-10T02:27:20.884078+00:00 app[web.1]:     at readableAddChunk (_stream_readable.js:176:18)
+2017-02-10T02:27:20.884079+00:00 app[web.1]:     at Socket.Readable.push (_stream_readable.js:134:10)
+2017-02-10T02:27:20.884079+00:00 app[web.1]:     at TCP.onread (net.js:548:20)
+2017-02-10T02:27:21.466700+00:00 heroku[router]: at=info method=GET path="/css/success.css" host=www.alexandharuka.com request_id=c3455787-839d-4d5f-a3f1-73b31d3817a0 fwd="60.112.120.202" dyno=web.1 connect=0ms service=2ms status=304 bytes=237
+2017-02-10T02:48:11.697097+00:00 heroku[router]: at=info method=GET path="/guestlist" host=www.alexandharuka.com request_id=7a763dbc-98bc-47c6-bbac-9f1bba281fcf fwd="73.97.189.98" dyno=web.1 connect=1ms service=40ms status=200 bytes=5652
+2017-02-10T02:48:11.680697+00:00 app[web.1]: Executing (default): SELECT "id", "fullName", "email", "adults", "children", "infants", "cost", "message", "createdAt", "updatedAt" FROM "responses" AS "response";
+2017-02-10T02:48:11.832234+00:00 heroku[router]: at=info method=GET path="/css/guestlist.css" host=www.alexandharuka.com request_id=874dbde7-9f39-4f0c-b146-7a0fc9617202 fwd="73.97.189.98" dyno=web.1 connect=1ms service=3ms status=200 bytes=3209
+2017-02-10T02:48:13.569389+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=www.alexandharuka.com request_id=9b750dd6-d603-41d8-86b7-69a837fbe713 fwd="73.97.189.98" dyno=web.1 connect=1ms service=2ms status=404 bytes=205
